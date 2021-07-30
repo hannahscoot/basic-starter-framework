@@ -1,7 +1,7 @@
 # Basic Project Starter Frameworks
 Basic Project structure for AngularJS, .Net Core with Angular Routing configured as standard.
 
-All of these projects load simply by opening the .sln file in visual studion and choosing to run using ISS Express. It should then just open a new window in your default browser, or if you want to navigate to it whilst it is running, it is ported at https://localhost:44374/
+All of these projects load simply by opening the .sln file in visual studio and choosing to run using ISS Express. It should then just open a new window in your default browser, or if you want to navigate to it whilst it is running, it is ported at https://localhost:44374/
 - - -
 
 > ### Commit :3b3ddcbb61032a8fa1f7bdaf71b795fbfac8a098:
