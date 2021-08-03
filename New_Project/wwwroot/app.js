@@ -7,6 +7,7 @@ app.config(function ($routeProvider, $locationProvider) {
             template: "<p>Text loaded from an inline template.</p>"
         })
         .when("/home", {
-            templateUrl: "/cap/Components/home/home.html"
+            templateUrl: "/cap/Components/home/home.html",
+            controller: "homeCtrl"
         });
 });

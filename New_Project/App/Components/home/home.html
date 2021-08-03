@@ -4,6 +4,10 @@
     <!-- /// -->
 </head>
 <body>
-    <p>Text loaded from a separate page.</p>
+    <div ng-controller="homeCtrl as vm">
+        <p>Text loaded from a separate page.</p>
+        <br />
+        <p>{{vm.test}}</p>
+    </div>
 </body>
 </html>
