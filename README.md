@@ -12,7 +12,15 @@ All of these projects load simply by opening the .sln file in visual studio and 
 >_The framework for starting from scratch (properly)_
 
 - - - 
-# How to rename the project
+> ### Commit :ad1eeb1fbcac1942f8047f2f695f1e503918546b:
+> This builds on the first build.
+> 
+> No back-end, no functionality, except now there is a seperate controller for the other page - all routed properly.
+> 
+>_The framework for starting from scratch (for implimenting functionality straight-off)_
+
+- - - 
+## How to rename the project
 
 The working projects that will be built using these templates will probably want to have a project specific name.
 
