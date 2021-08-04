@@ -20,6 +20,32 @@ All of these projects load simply by opening the .sln file in visual studio and 
 >_The framework for starting from scratch (for implimenting functionality straight-off)_
 
 - - - 
+> ### Commit :82086a3f9ce7d139dd20da20297d5fd05ab24c83:
+> This builds on the second build.
+> 
+> No back-end, no functionality, except now there is a seperate factory for the controller - all routed properly. (A factory typically handles the requests to the backend)
+> 
+>_The framework for starting a fully fleshed front-end (for implimenting functionality straight-off, or configuring a backend bespokely as this version has the minimum amount of code required to start to set it up properly)_
+
+- - - 
+## How to access a specific version of this project
+
+First, you proceed as normal, by cloning the project, typically by using:
+
+`git clone git://github.com/hannahscoot/basic-starter-framework.git`
+
+Then, navigate to the cloned project directory, typically by using:
+
+`cd basic-starter-framework`
+
+Then use a git checkout to change to the right commit, typically by using:
+
+`git checkout [version]`
+
+In the above code snippet, subsitute `[version]` for whichever commit you choose, for example: 
+
+replace `[version]` with `3b3ddcbb61032a8fa1f7bdaf71b795fbfac8a098` in order to get the most basic project version.
+
 ## How to rename the project
 
 The working projects that will be built using these templates will probably want to have a project specific name.
