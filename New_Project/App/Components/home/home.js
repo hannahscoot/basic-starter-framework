@@ -1,6 +1,5 @@
-﻿var app = angular.module("myApp");
-
-app.controller('homeCtrl', [function () {
+﻿app.controller("homeCtrl", function (homeFactory) {
     var vm = this;
-    vm.test = "Text loaded from a seperate controller";
-}])
+    vm.test = 'Text loaded from a separate controller.';
+    vm.testTwo = homeFactory.getMSG();
+});

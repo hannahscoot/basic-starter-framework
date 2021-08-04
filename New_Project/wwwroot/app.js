@@ -9,5 +9,6 @@ app.config(function ($routeProvider, $locationProvider) {
         .when("/home", {
             templateUrl: "/cap/Components/home/home.html",
             controller: "homeCtrl"
-        });
+        })
+        .otherwise({ redirectTo: '/' });
 });
